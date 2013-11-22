@@ -198,7 +198,6 @@ if [[ $LP_HOSTNAME_ALWAYS == 0 ]] ; then
     assert_not Domainname     ".localdomain"    $LINENO
 else
     assert_has Hostname     "\\\h"    $LINENO
-    echo "HERE LP_DOMAIN is $LP_DOMAIN"
     if [[ $LP_DOMAIN == 1 ]] ; then
 	assert_has Domainname     ".localdomain"    $LINENO
     else
