@@ -174,6 +174,7 @@ prompt-building process:
 * `LP_ENABLE_SSH_COLORS`, if you want different colors for hosts you SSH into
 * `LP_ENABLE_RUNTIME`, if you want to display the runtime of the last command
 * `LP_ENABLE_SUDO`, if you want the prompt mark to change color while you have password-less root access
+* `LP_ENABLE_FQDN`, if you want the display of the fully qualified domain name
 * `LP_ENABLE_TIME`, if you want to display the time at which the prompt was shown
 * `LP_TIME_ANALOG`, if you want to show the time using an analog clock instead of numeric values
 
@@ -353,7 +354,6 @@ version 3](LICENSE).
 * The analog clock requires a Unicode-aware terminal and at least a
   sufficiently complete font on your system. The [Symbola](http://users.teilar.gr/~g1951d/)
   font, designed by Georges Douros, is known to work well.
-* Displaying the runtime currently only works with Bash.
 
 
 ## Authors
